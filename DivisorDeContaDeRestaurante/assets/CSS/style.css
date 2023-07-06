@@ -1,0 +1,61 @@
+body {
+  margin: 20px;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#clientes,
+#produtos {
+  margin-bottom: 20px;
+}
+.container{
+  background-color: #fff;
+  border-radius: 10px;
+  border-radius: 0 2px rgba(0,0,0,0.3);
+  margin: 3rem auto;
+  max-width: 500px;
+  padding: 1.6rem;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#resultado-list li {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#calcular {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}

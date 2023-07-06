@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Divisor de Conta de Restaurante</title>
+  <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
+</head>
+<body>
+ 
+<div class="container">
+  <h1>Divisor de Conta de Restaurante</h1>
+  <div id="clientes">
+    <label for="cliente">Cliente:</label>
+    <input type="text" id="cliente" placeholder="Digite o nome do cliente">
+    <button class="btn-Cliente">Adicionar Cliente</button>
+    <ul class="tarefas-cliente"></ul>
+  </div>
+
+  <div id="produtos">
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto" placeholder="Digite o nome do produto">
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" placeholder="Digite o valor do produto">
+    <button class="btn-Produto">Adicionar Produto</button>
+    <ul class="tarefas-produto"></ul>
+  </div>
+  <div id="taxa-servico">
+    <label for="taxa">Taxa de Serviço (%):</label>
+    <input type="number" id="taxa" placeholder="Digite a taxa de serviço">
+    <button id="calcular">Calcular Divisão</button>
+
+  <h2>Resultado:</h2>
+  <ul id="resultado-list"></ul>
+  </div>
+</div>
+
+
+  <script src="./assets/JS/main.js"></script>
+</body>
+</html>

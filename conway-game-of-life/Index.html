@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Life</title>
+	<link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+	
+  <div id="container">
+    <h1>Game of Life</h1>
+    
+    <button id="btn-start" onclick="start()">Start</button>
+    <button id="btn-stop" onclick="stop()" disabled>Stop</button>
+    <button id="btn-run-1" onclick="run(1)" disabled>Run 1 Generation</button>
+    <button id="btn-run-5" onclick="run(5)" disabled>Run 5 Generations</button>
+    <button id="btn-run-10" onclick="run(10)" disabled>Run 10 Generations</button>
+    <button id="btn-reset" onclick="reset()">Reset</button>
+  	<p>Generation: <span id="generation"></span></p>  
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="./JS/script.js"></script>
+ 
+</body>
+</html>
